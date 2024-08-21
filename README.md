@@ -2,6 +2,9 @@
 
 This project is an Express.js application that serves static files and handles a webhook endpoint for verification and event processing. It includes a simple frontend served from an `index.html` file.
 
+![Screenshot 2024-08-20 at 9 52 32 PM](https://github.com/user-attachments/assets/402584ac-2e53-4561-887b-f56ce0ab2c65)
+
+
 ## Getting Started
 
 To get started with this project, follow these steps:
