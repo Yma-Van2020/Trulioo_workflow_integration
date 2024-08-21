@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  h1 {
+    color: rgb(0, 76, 69); /* Trulioo dark green */
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin: 0.5rem 0 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .button-style {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    background-color: rgb(22, 180, 177); /* Trulioo teal */
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+  }
+  
+  a:hover {
+    background-color: rgb(0, 76, 69); /* Dark green on hover */
+  }
+  
