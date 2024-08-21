@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path'); // Add this line to require the path module
 const app = express();
 
 // Middleware to serve static files
