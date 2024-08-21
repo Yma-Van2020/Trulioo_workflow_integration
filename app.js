@@ -3,11 +3,11 @@ const path = require('path'); // Add this line to require the path module
 const app = express();
 
 // Middleware to serve static files
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname)));
 
 // Serve the HTML file when the root URL is accessed
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Webhook endpoint
